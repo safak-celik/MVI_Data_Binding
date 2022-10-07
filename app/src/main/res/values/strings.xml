@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Counter_MVI</string>
+    <string name="max_reached">Max reached:</string>
+    <string name="start">Start</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+</resources>
