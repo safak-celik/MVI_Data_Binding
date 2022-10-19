@@ -31,7 +31,7 @@ abstract class MviViewModel<E : UiIntent, S : UiState>(initialState: S) : ViewMo
         // can be overridden by children implementations
     }
 
-    // View --> ViewModel
+    // Send an Intent from View to ViewModel
     fun sendIntent(intent: E) {
         viewModelScope.launch {
             _uiIntent.emit(intent)

@@ -2,12 +2,9 @@ package com.example.counter_mvi.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil
 import androidx.databinding.DataBindingUtil.setContentView
 import androidx.databinding.ViewDataBinding
 import com.example.counter_mvi.BR
-import com.freelapp.flowlifecycleobserver.collectWhileStartedIn
-import kotlinx.coroutines.flow.onEach
 
 abstract class MviActivity<B : ViewDataBinding, VM : MviViewModel<out UiIntent, out UiState>> :
     AppCompatActivity() {

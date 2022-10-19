@@ -3,7 +3,6 @@
 <!--
 To Use Data Binding (For TextViews and onClickListeners)
 -->
-
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
@@ -14,7 +13,6 @@ To Use Data Binding (For TextViews and onClickListeners)
             name="viewModel"
             type="com.example.counter_mvi.main.MainViewModel" />
     </data>
-
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -33,7 +31,6 @@ To Use Data Binding (For TextViews and onClickListeners)
             app:layout_constraintTop_toTopOf="parent"
             tools:text="10" />
 
-
         <TextView
             android:id="@+id/info"
             android:layout_width="wrap_content"
@@ -44,7 +41,6 @@ To Use Data Binding (For TextViews and onClickListeners)
             app:layout_constraintBottom_toBottomOf="@+id/counter"
             app:layout_constraintEnd_toStartOf="@+id/counter"
             app:layout_constraintStart_toStartOf="parent" />
-
 
         <Button
             android:id="@+id/start_button"
