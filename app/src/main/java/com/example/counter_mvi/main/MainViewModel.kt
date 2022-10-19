@@ -3,7 +3,6 @@ package com.example.counter_mvi.main
 import com.example.counter_mvi.base.MviViewModel
 import com.example.counter_mvi.main.MainUiIntent.*
 
-
 class MainViewModel : MviViewModel<MainUiIntent, MainUiState>(MainUiState()) {
 
     override fun onUiIntent(intent: MainUiIntent) {

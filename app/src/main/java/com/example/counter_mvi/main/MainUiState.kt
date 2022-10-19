@@ -2,7 +2,6 @@ package com.example.counter_mvi.main
 
 import com.example.counter_mvi.base.UiState
 
-
 data class MainUiState(
     val counter: Int = 0
 ) : UiState {

@@ -14,7 +14,7 @@ abstract class MviActivity<B : ViewDataBinding, VM : MviViewModel<out UiIntent, 
 
     private var _binding: B? = null
 
-    protected val binding
+    private val binding
         get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
